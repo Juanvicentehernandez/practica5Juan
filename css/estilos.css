@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: white; /* Color de fondo del menú */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(69, 74, 73);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(7, 121, 72) ; /* Color de fondo al pasar el cursor */
+    color: aliceblue;
+  }
+  li .Inicio:hover {
+    background-color: rgb(21, 224, 214) ; /* Color de fondo al pasar el cursor */
+    color: aliceblue;
+  }
+.Inicio{
+    background-color: rgba(207, 241, 18, 0.749);
+    color: black;
+}
+:root{
+    --fondoDiv : rgb(17, 190, 55);
+    --colorTexto: white;
+    --colorPeligro: rgb(6, 138, 138);
+    --colorcoca: blue ;
+    --gatopanson: rgb(37, 120, 4);
+    --gatotriste: red;
+}
+.Inicio{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+}
+.caja{ 
+    color: var(--colorPeligro);
+}
+.caja1{  
+    color: var(--colorcoca);
+}
+h1{
+color: var(--gatotriste);
+}
+p{
+  color: var(--gatopanson)
+}
